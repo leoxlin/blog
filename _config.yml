@@ -4,7 +4,7 @@ email: me@leoxlin.com
 
 description: >-
   Hey friend! Thanks for visting my blog. I am a Software Engineer based in
-  Boston, MA. I will be writing about Software, Philosophy, and other topics
+  Boston, Massachusetts. I write about Software and other topics
   I find interesting in my life.
 
 baseurl: ""
@@ -14,6 +14,5 @@ url: "https://blog.leoxlin.com"
 twitter_username: leoxlin
 github_username:  leoxlin
 
-theme: minima
 plugins:
   - jekyll-feed

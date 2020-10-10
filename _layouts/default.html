@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: "en" }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>
+      {% if page.title %}
+        {{ page.title }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </title>
+
+    {% feed_meta %}
+
+    <link rel="shortcut icon" type="image/x-icon" href="/{{ site.favicon }}" />
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css" />
+  </head>
+  <body>
+    <main class="page-content" aria-label="Content">
+      <div class="content">
+        {{ content }}
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<h2>{{ page.title }}</h2>
+
+<ul>
+  <li>Subject: {{ page.subject }}</li>
+  <li>Publish: {{ page.date | date: "%Y-%m-%d" }}</li>
+</ul>
+
+{{ content }}

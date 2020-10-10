@@ -1,0 +1,31 @@
+* {
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  color: #000000;
+}
+
+div.content {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+ul {
+  list-style-type: none;
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+a {
+  color: #636363;
+}
+
+a:hover {
+  color: #525252;
+}
+
+
+hr {
+  text-align: center;
+  border: 0;
+}
