@@ -5,8 +5,6 @@ subject:    "Software"
 date:       2021-04-01 00:00:00
 ---
 
-# How to write python decorators
-
 ## What are decorators
 
 Decorators are a special type of function in python that was introduced in
