@@ -3,14 +3,10 @@ layout: default
 ---
 
 <a href='{{site.url}}/'>← return to posts</a>
-<h1 class='title'>{{ page.title }}</h1>
+<h1>{{ page.title }}</h1>
 <ul class='metadata'>
-  <li class:left>
-    date: {{ page.date | date: "%Y-%m-%d" }}
-  </li>
-  <li class='right'>
-    tags: {{ page.tags | join: ", " }}
-  </li>
+  <li class='left'>date: {{ page.date | date: "%Y-%m-%d" }}</li>
+  <li class='right'>tags: {{ page.tags | join: ", " }}</li>
 </ul>
 
 {{ content }}

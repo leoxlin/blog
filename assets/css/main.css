@@ -7,11 +7,7 @@ div.content {
   max-width: 640px;
   margin: 0 auto;
   padding: 4rem 2rem;
-  font-family: "Courier New", Courier, monospace;
-}
-
-h1.title {
-  line-height: 50%;
+  font-family: Georgia,Times,"Times New Roman",serif;
 }
 
 ul.metadata {
@@ -22,16 +18,8 @@ ul.metadata {
   list-style-position: inside;
   padding-left: 0;
 }
-
-li.left {
-  flex: 50%;
-  text-align: left;
-}
-
-li.right {
-  flex: 50%;
-  text-align: right;
-}
+ul.metadata li.left { flex: 50%; text-align: left; }
+ul.metadata li.right { flex: 50%; text-align: right; }
 
 ul.posts {
   list-style-type: none;
@@ -44,19 +32,9 @@ ul {
   list-style-type: '⪧ ';
 }
 
-a {
-  font-family: Courier, monospace;
-  color: #223e52;
-}
-
-a:hover {
-  color: #2f5978;
-}
-
-hr {
-  text-align: center;
-  border: 0;
-}
+a         { color: #223e52; }
+a:hover   { color: #2f5978; }
+hr        { text-align: center; border: 0; }
 
 .highlight {
   margin: 1em 0;
