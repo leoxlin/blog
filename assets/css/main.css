@@ -30,6 +30,10 @@ hr {
   border: 0;
 }
 
+.title {
+  line-height: 60%;
+}
+
 .highlight {
   margin: 1em 0;
   background: #f0eded;
