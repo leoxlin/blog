@@ -7,7 +7,7 @@ div.content {
   max-width: 640px;
   margin: 0 auto;
   padding: 4rem 2rem;
-  font-family: Georgia,Times,"Times New Roman",serif;
+  font-family: "Montserrat",Georgia,Times,"Times New Roman",serif;
 }
 
 ul.metadata {
@@ -39,7 +39,6 @@ hr        { text-align: center; border: 0; }
 .highlight {
   margin: 1em 0;
   background: #f0eded;
-  font-family: 'Roboto Mono', monospace;
   padding-left: 0.7em;
   padding-top: 0.005em;
   padding-bottom: 0.005em;
