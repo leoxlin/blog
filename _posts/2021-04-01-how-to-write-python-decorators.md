@@ -1,8 +1,8 @@
 ---
 layout:     post
 title:      "How to write python decorators"
-subject:    "Software"
 date:       2021-04-01 00:00:00
+tags:       software python
 ---
 
 ## What are decorators
@@ -226,25 +226,20 @@ Decorators are commonly used for things like timers and declaring @staticmethod
 for a class, I've collected some examples of crazy uses you can push decorator
 to do.
 
-### Patching the function code and implementing goto
+- [Patching the function code and implementing goto](https://github.com/snoack/python-goto)
 
-https://github.com/snoack/python-goto
+  This is one of the greatest `decorator` usage I've seen. The author wrote a
+  decorator that will modify the code of the function passed in and make `goto`
+  and `label` work in python
 
-This is one of the greatest `decorator` usage I've seen. The author wrote a
-decorator that will modify the code of the function passed in and make `goto`
-and `label` work in python
+- [Timeout decorator that limits the execution time of function](https://github.com/pnpnpn/timeout-decorator)
 
-### Timeout decorator that limits the execution time of function
+  There is so much utility in being able to manage the execution time of a
+  function. Having this as a decorator makes implementing timeout behavior with
+  functions a lot easier.
 
-https://github.com/pnpnpn/timeout-decorator
+- [Rate limiting how many times a function can be called](https://github.com/enricobacis/awesome-python-decorators/tree/master/ratelimit)
 
-There is so much utility in being able to manage the execution time of a
-function. Having this as a decorator makes implementing timeout behavior with
-functions a lot easier.
-
-### Rate limiting how many times a function can be called
-
-https://github.com/enricobacis/awesome-python-decorators/tree/master/ratelimit
-
-This is another decorator that makes multi-threaded python easier. You can wrap
-any functions and specify how many times it can be called per time period.
+  This is another decorator that makes multi-threaded python easier. You can
+  wrap any functions and specify how many times it can be called per time
+  period.

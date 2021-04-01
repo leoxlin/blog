@@ -10,15 +10,38 @@ div.content {
   font-family: "Courier New", Courier, monospace;
 }
 
-div.title {
-  margin: 0 auto;
-  line-height: 60%;
+h1.title {
+  line-height: 50%;
 }
 
-ul {
+ul.metadata {
+  font-size: 80%;
+  display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   list-style-position: inside;
   padding-left: 0;
+}
+
+li.left {
+  flex: 50%;
+  text-align: left;
+}
+
+li.right {
+  flex: 50%;
+  text-align: right;
+}
+
+ul.posts {
+  list-style-type: none;
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+ul {
+  padding-left: 2%;
+  list-style-type: '⪧ ';
 }
 
 a {
@@ -29,7 +52,6 @@ a {
 a:hover {
   color: #2f5978;
 }
-
 
 hr {
   text-align: center;
