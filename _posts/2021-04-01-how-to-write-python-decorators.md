@@ -5,13 +5,11 @@ subject:    "Software"
 date:       2021-04-01 00:00:00
 ---
 
-## What are decorators
-
 Decorators are a special type of function in python that was introduced in
 [PEP-318](https://www.python.org/dev/peps/pep-0318/). It is a function that
 extends or change the behavior of a function/class.
 
-## Basic syntax
+### Basic syntax
 
 A decorator can be defined as any other python functions. It needs to accept a
 function as in input and return another function as output.
@@ -40,7 +38,7 @@ AHHH
 My name is Leo
 ```
 
-## Experimenting with the decorator '@' syntax
+### Experimenting with the decorator '@' syntax
 
 What if you want to accept some arguments to construct the decorator? Let's say
 you want to alter `scream_when_invoked` to scream a different value.
@@ -128,14 +126,14 @@ def print_name():
   print("My name is Leo")
 ```
 
-## Decorating functions with arguments
+### Decorating functions with arguments
 
 We used the example `print_name` as the function being decorated. But what if
 you need to decorate a function that accepts arguments?
 
 You can either make it generic or specific to the type of function you decorate.
 
-### Specific params
+#### Specific params
 
 Let's say you only need to decorate functions that accepts lists and returns
 lists. Your decorator can focus on handling functions that accepts lists only
@@ -165,7 +163,7 @@ def reverse_list(items):
 [3, 2, 1, 777]
 ```
 
-### Generic params
+#### Generic params
 
 You can also accept all functions by using generic parameters.
 
@@ -223,7 +221,7 @@ field. In our case, the `Person` class was modified.
 Hi I am Bill Nye The Science Guy
 ```
 
-## Awesome Decorator Uses
+### Awesome Decorator Uses
 
 Decorators are commonly used for things like timers and declaring @staticmethod
 for a class, I've collected some examples of crazy uses you can push decorator
