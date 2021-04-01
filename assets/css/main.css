@@ -10,6 +10,11 @@ div.content {
   font-family: "Courier New", Courier, monospace;
 }
 
+div.title {
+  margin: 0 auto;
+  line-height: 60%;
+}
+
 ul {
   list-style-type: none;
   list-style-position: inside;
@@ -17,21 +22,18 @@ ul {
 }
 
 a {
-  color: #636363;
+  font-family: Courier, monospace;
+  color: #223e52;
 }
 
 a:hover {
-  color: #525252;
+  color: #2f5978;
 }
 
 
 hr {
   text-align: center;
   border: 0;
-}
-
-.title {
-  line-height: 60%;
 }
 
 .highlight {
