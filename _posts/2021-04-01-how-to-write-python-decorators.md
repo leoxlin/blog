@@ -7,7 +7,7 @@ tags:       software python
 
 ## What are decorators
 
-Decorators are a special type of function in python that was introduced in
+Decorators are special types of function in python that was introduced in
 [PEP-318](https://www.python.org/dev/peps/pep-0318/). It is a function that
 extends or change the behavior of a function/class.
 
