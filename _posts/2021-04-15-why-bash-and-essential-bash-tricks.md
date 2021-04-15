@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Why bash and essential bash tricks"
-date:       2021-04-15 06:00:00
+date:       2021-04-15
 tags:       software bash
 ---
 
