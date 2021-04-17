@@ -29,9 +29,9 @@ different. We live in an age where diversity in the workplace is the norm and
 not the exception. Diversity is awesome and it [makes us more
 effective](https://bit.ly/3sotoRy).
 
-However, when you have a diverse team and company, it requires conscious effort
-to consider the psychological safety of the team. To simplify it, psychological
-safety is trust and comfort in your team and teammates.
+However, when you have a diverse team and company, it requires a conscious
+effort to consider the psychological safety of the team. To simplify it,
+psychological safety is trust and comfort in your team and teammates.
 
 A study at Google found that the most important dynamic that sets a successful
 team apart from others was [Psychological Safety](https://bit.ly/32lJBwl).
@@ -62,7 +62,7 @@ to do things that are not providing any value or just for bureaucracy sake.
 
 Work better not harder! I like to empower and improve effectiveness of people
 around me. If I can teach you something that can make you work better or if we
-can  collaborate on a project that can make us better, please reach out :D!
+can collaborate on a project that can make us better, please reach out :D!
 
 #### Solving the hardest problems
 
@@ -134,8 +134,8 @@ instead of tapping me on the shoulder to interrupt me.
 
 #### How I like to receive feedback
 
-I welcome feedback and love to learn where I improve. If you'd like to give me
-some feedback feel free to grab some 1:1 time with me or send me a DM over
+I welcome feedback and love to learn where I can improve. If you'd like to give
+me some feedback feel free to grab some 1:1 time with me or send me a DM over
 Slack.
 
 However please make sure your feedback is actionable, make sure to provide:
@@ -148,7 +148,7 @@ I prefer to receive feedback in private so never "call me out" in a public
 setting. I think we all struggle with that. Likewise I will never call people
 out in public and will always provide feedback in private.
 
-#### How I deal with stress
+#### How I deal with stressful situations
 
 Whenever I am upset about something or stressed I always immediately remove
 myself from the situation first. I will usually mention that I don't want to
